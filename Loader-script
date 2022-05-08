@@ -1,8 +1,7 @@
-repeat wait() until game:IsLoaded()
-local PlaceId = game.PlaceId
-if PlaceId == 7952502098 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SkyEnder/SGSCRIPT/main/Squid%20Game"))()
- elseif
- print(waiting for update)
+local placeId = game.PlaceId
+if placeId == 7952502098 or placeId == 2753915549 then
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/SkyEnder/SGSCRIPT/main/Squid%20Game")()
+elseif placeId == 2753915549 then
+     print(waiting for update)
 end
 
